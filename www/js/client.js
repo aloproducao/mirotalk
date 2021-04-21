@@ -395,7 +395,7 @@ function initPeer() {
       position: "center",
       imageAlt: "mirotalk-name",
       imageUrl: welcomeImg,
-      title: "Enter your name",
+      title: "Qual seu nome?",
       input: "text",
       showClass: {
         popup: "animate__animated animate__fadeInDown",
@@ -405,7 +405,7 @@ function initPeer() {
       },
       inputValidator: (value) => {
         if (!value) {
-          return "Please enter youre name";
+          return "Por favor coloque seu nome";
         }
         myPeerName = value;
         myVideoParagraph.innerHTML = myPeerName;
