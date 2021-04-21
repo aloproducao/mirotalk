@@ -451,7 +451,7 @@ function initPeer() {
       <p style="color:rgb(8, 189, 89);">` +
         myRoomUrl +
         `</p>`,
-      confirmButtonText: `Copy URL`,
+      confirmButtonText: `Copiar`,
       showClass: {
         popup: "animate__animated animate__fadeInDown",
       },
