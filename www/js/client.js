@@ -1586,7 +1586,7 @@ async function shareRoomUrl() {
       allowOutsideClick: false,
       background: swalBackground,
       position: "center",
-      title: "Room QR",
+      title: "QR Code da sala",
       imageAlt: "mirotalk-share",
       imageUrl: shareUrlImg,
       html:
@@ -1596,7 +1596,7 @@ async function shareRoomUrl() {
         <canvas id="qrRoom"></canvas>
       </div>
       <br/><br/>
-      Send this URL to all participants
+      Envie este URL a todos os participantes.
       <p style="color:rgb(8, 189, 89);">` +
         window.location.href +
         `</p>`,
@@ -1606,7 +1606,7 @@ async function shareRoomUrl() {
       hideClass: {
         popup: "animate__animated animate__fadeOutUp",
       },
-      confirmButtonText: `Copy URL`,
+      confirmButtonText: `Copiar`,
     });
     makeRoomQR();
   }
@@ -2313,13 +2313,12 @@ function getAbout() {
   Swal.fire({
     background: swalBackground,
     position: "center",
-    title: "<strong>WebRTC Made with ❤️</strong>",
+    title: "<strong>navve.tv ❤️</strong>",
     imageAlt: "mirotalk-about",
     imageUrl: aboutImg,
     html: `
     <br/>
-    <div id="about"><b>open source</b> project on<a href="https://github.com/miroslavpejic85/mirotalk" target="_blank"><h1><strong> GitHub </strong></h1></a></div>
-    <div id="author"><a href="https://www.linkedin.com/in/miroslav-pejic-976a07101/" target="_blank">Author: Miroslav Pejic</a></div>
+    <div id="author"><a href="https://navve.tv" target="_blank">sobre: navve.</a></div>
     `,
     showClass: {
       popup: "animate__animated animate__fadeInDown",
@@ -2342,10 +2341,10 @@ function leaveRoom() {
     position: "center",
     imageAlt: "mirotalk-leave",
     imageUrl: leaveRoomImg,
-    title: "Leave this room?",
+    title: "Sair da sala?",
     showDenyButton: true,
-    confirmButtonText: `Yes`,
-    denyButtonText: `No`,
+    confirmButtonText: `Sim`,
+    denyButtonText: `Não`,
     showClass: {
       popup: "animate__animated animate__fadeInDown",
     },
