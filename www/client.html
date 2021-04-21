@@ -4,20 +4,7 @@
     <title>
       mirotalk WebRTC Real-time Video call, Chat Room and Screen Sharing
     </title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-3XM60XK9RQ"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-3XM60XK9RQ");
-    </script>
+   
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta
       name="viewport"
@@ -62,10 +49,9 @@
 
     <!-- show this before to join -->
     <div id="loadingDiv">
-      <h1 class="pulsate">Loading...</h1>
+      <h1 class="pulsate">Conectando...</h1>
       <pre>
-Please allow camera & microphone
-access to use this app.
+Permita a câmera e o microfone.
       </pre>
     </div>
 
@@ -120,7 +106,7 @@ access to use this app.
                 <div class="msg-info-time">00:00:00</div>
               </div>
 
-              <div class="msg-text">Hi, welcome to mirotalk-Chat</div>
+              <div class="msg-text">Olá, bem vindo ao navve.chat</div>
             </div>
           </div>
 
@@ -132,7 +118,7 @@ access to use this app.
 
             <div class="msg-bubble">
               <div class="msg-info">
-                <div class="msg-info-name">Your Name</div>
+                <div class="msg-info-name">Qual seu nome?</div>
                 <div class="msg-info-time">00:00:00</div>
               </div>
 
@@ -147,7 +133,7 @@ access to use this app.
             id="msgerInput"
             class="msger-input"
             type="text"
-            placeholder="Enter your message..."
+            placeholder="Digite sua mensagem..."
           />
           <button id="msgerSendBtn" class="fas fa-paper-plane"></button>
         </form>
@@ -178,7 +164,7 @@ access to use this app.
           <label>My name:&nbsp;</label><br /><input
             id="myPeerNameSet"
             type="text"
-            placeholder="Change name..."
+            placeholder="Trocar nome..."
           />&nbsp;&nbsp;<button
             id="myPeerNameSetBtn"
             class="fas fa-paper-plane"
@@ -188,30 +174,30 @@ access to use this app.
         </div>
         <br />
         <div>
-          <label for="audioSource">Audio input:&nbsp;</label><br /><select
+          <label for="audioSource">Fonte de áudio:&nbsp;</label><br /><select
             id="audioSource"
           ></select>
         </div>
         <br />
         <div>
-          <label for="audioOutput">Audio output:&nbsp;</label><br /><select
+          <label for="audioOutput">Saída de áudio:&nbsp;</label><br /><select
             id="audioOutput"
           ></select>
         </div>
         <br />
         <div>
-          <label for="videoSource">Video source:&nbsp;</label><br /><select
+          <label for="videoSource">Fonte de vídeo:&nbsp;</label><br /><select
             id="videoSource"
           ></select>
         </div>
         <br />
         <div>
-          <label for="mirotalkTheme">Theme:&nbsp;</label><br /><select
+          <label for="mirotalkTheme">Tema:&nbsp;</label><br /><select
             id="mirotalkTheme"
           >
-            <option value="neon">mirotalk - neon</option>
-            <option value="dark">mirotalk - dark</option>
-            <option value="ghost">mirotalk - ghost</option>
+            <option value="neon">neon</option>
+            <option value="dark">escuro</option>
+            <option value="ghost">transparente</option>
           </select>
         </div>
       </main>
