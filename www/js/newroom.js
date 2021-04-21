@@ -1,4 +1,4 @@
-var adjectives = [
+var nouns = [
   "pequeno",
   "grande",
   "ampla",
@@ -52,7 +52,7 @@ var adjectives = [
   "inteligente",
 ];
 
-var nouns = [
+var adjectives = [
  "cão",
   "bastão",
   "chave",
