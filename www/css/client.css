@@ -505,7 +505,7 @@ emoji-picker {
   z-index: 5;
     font-size: 2rem;
     font-family: sans-serif !important;
-    margin-top: 45vh;
+       color: black !important;
 }
 
 .videoStatusIcon {
