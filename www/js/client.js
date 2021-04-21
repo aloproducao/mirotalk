@@ -441,13 +441,13 @@ function initPeer() {
     Swal.fire({
       background: swalBackground,
       position: "center",
-      title: "<strong>Welcome " + myPeerName + "</strong>",
+      title: "<strong>Seja bem vindo! " + myPeerName + "</strong>",
       imageAlt: "mirotalk-welcome",
       imageUrl: welcomeImg,
       html:
         `
       <br/> 
-      Share this URL to join on this call.
+      Compartilhe este URL para participar desta chamada.
       <p style="color:rgb(8, 189, 89);">` +
         myRoomUrl +
         `</p>`,
