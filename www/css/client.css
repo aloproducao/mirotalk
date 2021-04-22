@@ -502,6 +502,7 @@
   --------------------------------------------------------------*/
   
   .videoPeerName {
+      font-variant-caps: all-small-caps;
     z-index: 5;
     position: absolute;
     right: -155px;
