@@ -507,8 +507,9 @@
     right: -155px;
     bottom: -52px;
       font-size: 05vh;
-      font-family: sans-serif !important;
-         color: black !important;
+    
+        
+      color: #ffffff !important; font-family: 'Lato', sans-serif !important;  font-weight: 300; line-height: 58px; margin: 0 0 58px; 
   }
   
   .videoStatusIcon {
