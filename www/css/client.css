@@ -122,10 +122,12 @@
     transform: translate(-50%, -50%);
   }
   #loadingDiv h1 {
-    font-size: 56px;
+    font-size: 48px;
   }
   #loadingDiv pre {
-    font-size: 15px;
+   font-size: 13px;
+margin-top: -38px !important;
+margin-left: 4px;
   }
   
   /*--------------------------------------------------------------
